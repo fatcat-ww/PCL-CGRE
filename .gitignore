@@ -1,0 +1,65 @@
+# Build
+build/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+*.cmake
+
+# Binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.lib
+*.exp
+
+# Precompiled headers
+*.gch
+*.pch
+
+# GResource
+*.gresource
+*.gresource.xml
+
+# AppImage artifacts
+*.AppImage
+*.AppImage.zsync
+AppDir/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Core dumps / crash logs
+core
+*.core
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
